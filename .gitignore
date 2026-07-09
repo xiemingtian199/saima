@@ -1,0 +1,16 @@
+node_modules/
+scripts/node_modules/
+
+# Local runtime/output artifacts
+outputs/
+raw/
+metadata/
+final_images/
+main_long_1440x1920/
+final_delivery/
+*.log
+
+# Local secrets and environment files
+.env
+*.env
+*.key

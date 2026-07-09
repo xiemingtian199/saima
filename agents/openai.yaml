@@ -1,0 +1,7 @@
+interface:
+  display_name: "赛马计划"
+  short_description: "分阶段赛马分析、PDF转Markdown、三列表交接与无Agent自动生图"
+  default_prompt: "Use $saima-plan to run the current ecommerce racing stage, hand off compact structured output, and automate confirmed image generation locally."
+
+policy:
+  allow_implicit_invocation: true
