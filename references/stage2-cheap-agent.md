@@ -1,5 +1,9 @@
 # 阶段二：低成本 Agent 文案与提示词
 
+若 `phase1_handoff.json` 的 `visual_system` 明确声明“沃朗森风格”，额外读取 `wolansen-style.md`。全部任务沿用其产品稳定协议和主图/SKU/详情页模板；只在 `prompt_delta` 写当前页差异，不复制整套母版。
+
+若 `phase1_handoff.json` 的 `visual_system` 明确声明“振德风格”，额外读取 `zhende-style.md`。全部任务沿用其产品与规格稳定协议和主图/SKU/详情页模板；只在 `prompt_delta` 写当前页差异，不复制整套母版。
+
 ## 输入边界
 
 只读取 `phase1_handoff.json` 和本文件。包含详情页任务时再读取 `detail-page-framework.md`。默认不得遍历产品目录、打开原图、重新总结竞品或重做产品策略。
